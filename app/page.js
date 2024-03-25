@@ -6,8 +6,8 @@ import Footer from "./components/Footer/page";
 export default function Home() {
   return (
     <>
-      <Header/>
-      <Hero/>
+      <Header />
+      <Hero />
     </>
   );
 }
