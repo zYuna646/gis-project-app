@@ -6,7 +6,7 @@ const Header = () => {
       <nav className=" bg-red-100 h-16">
         <div className="container mx-auto flex justify-between items-center">
           <div className=" w-11 mt-2">
-            <img src="/assets/logo.png" alt="" />
+            <img src="/assets/logo.png" alt="logoBonbol" />
           </div>
           <div className="md:hidden">
             <button className="text-white">
