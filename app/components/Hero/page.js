@@ -10,7 +10,7 @@ const Hero = () => {
             <h3 className="text-2xl font-bold">
               Pertanian Kabupaten Bone Bolango
             </h3>
-            <div class="border-b-2 border-red-300"></div>
+            <div class="border-b-2 border-lime-400"></div>
             <p className="text-lg text-center">
               Selamat datang di SIG Pertanian Bone Bolango, sebuah platform yang
               menyajikan informasi terbaru mengenai data spasial dan data
@@ -20,10 +20,10 @@ const Hero = () => {
               tabular terkait hasil produksi dan efisiensi pengelolaan
               pertanian.
             </p>
-            <button className="bg-red-300 hover:bg-red-500 hover:text-slate-200 transition-colors duration-300 ease-in-out text-white font-bold py-2 px-4 rounded mt-4">
+            <button className="bg-lime-400 hover:bg-lime-700 hover:text-slate-200 transition-colors duration-300 ease-in-out text-white font-bold py-2 px-4 rounded mt-4">
               Data Spasial
             </button>
-            <button className="bg-red-300 ml-4 hover:bg-red-500 hover:text-slate-200 transition-colors duration-300 ease-in-out text-white font-bold py-2 px-4 rounded mt-4">
+            <button className="bg-lime-400 ml-4 hover:bg-lime-700 hover:text-slate-200 transition-colors duration-300 ease-in-out text-white font-bold py-2 px-4 rounded mt-4">
               Data Tabular
             </button>
           </div>

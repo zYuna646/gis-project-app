@@ -5,7 +5,7 @@ const Header = () => {
     <>
       <nav className="">
         <div className="fixed container mx-auto flex justify-between items-center">
-          <div className=" w-11 ml-4 mt-4">
+          <div className=" w-11 ml-12 mt-4">
             <img src="/assets/logo.png" alt="logoBonbol" />
           </div>
           <div className="md:hidden">
