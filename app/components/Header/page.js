@@ -4,11 +4,11 @@ const Header = () => {
   return (
     <>
       <nav className="">
-        <div className="fixed container mx-auto flex justify-between items-center">
+        <div className=" fixed bg w-full flex justify-between  items-center">
           <div className=" w-11 ml-12 mt-4">
             <img src="/assets/logo.png" alt="logoBonbol" />
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden mr-6">
             <button className="text-white">
               <svg
                 className="h-6 w-6"
@@ -25,19 +25,29 @@ const Header = () => {
               </svg>
             </button>
           </div>
-          <ul className="hidden md:flex md:items-center">
+
+          <ul className="hidden mr-14 md:flex md:items-bottom  ">
             <li className="mr-6 text-white">
-              <a href="#" className="text-white font-semibold">
+              <a
+                href="#"
+                className="text-white font-semibold  hover:border-b-4 transition-all   hover:border-lime-500  "
+              >
                 Home
               </a>
             </li>
             <li className="mr-6 text-white">
-              <a href="#" className="text-white font-semibold">
+              <a
+                href="#"
+                className="text-white font-semibold hover:border-b-4 transition-all ease-in  hover:border-lime-500"
+              >
                 Data Spasial
               </a>
             </li>
             <li className="text-white">
-              <a href="#" className="text-white font-semibold">
+              <a
+                href="#"
+                className="text-white font-semibold hover:border-b-4 transition-all ease-in  hover:border-lime-500"
+              >
                 Data Tabular
               </a>
             </li>
