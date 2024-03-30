@@ -1,11 +1,12 @@
+import Link from "next/link";
 import React from "react";
 
 const Header = () => {
   return (
     <>
-      <nav className="">
-        <div className=" fixed bg w-full flex justify-between  items-center">
-          <div className=" w-11 ml-12 mt-4">
+      <nav className="bg-green-500 bg-opacity-20 fixed w-full z-10">
+        <div className="w-full flex justify-between items-center">
+          <div className="w-11 ml-12 mt-4">
             <img src="/assets/logo.png" alt="logoBonbol" />
           </div>
           <div className="md:hidden mr-6">
@@ -26,30 +27,30 @@ const Header = () => {
             </button>
           </div>
 
-          <ul className="hidden mr-14 md:flex md:items-bottom  ">
+          <ul className="hidden mr-14 md:flex md:items-bottom">
             <li className="mr-6 text-white">
-              <a
-                href="#"
-                className="text-white font-semibold  hover:border-b-4 transition-all   hover:border-lime-500  "
+              <Link
+                href="/"
+                className="text-white font-semibold hover:border-b-4 transition-all hover:border-lime-500"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="mr-6 text-white">
-              <a
-                href="#"
-                className="text-white font-semibold hover:border-b-4 transition-all ease-in  hover:border-lime-500"
+              <Link
+                href="/data_spasial"
+                className="text-white font-semibold hover:border-b-4 transition-all ease-in hover:border-lime-500"
               >
                 Data Spasial
-              </a>
+              </Link>
             </li>
             <li className="text-white">
-              <a
-                href="#"
-                className="text-white font-semibold hover:border-b-4 transition-all ease-in  hover:border-lime-500"
+              <Link
+                href="/data_tabular"
+                className="text-white font-semibold hover:border-b-4 transition-all ease-in hover:border-lime-500"
               >
                 Data Tabular
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
