@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Head from "next/head"; // Import Head from next/head to manage metadata
+import Header from "./components/Header/page";
 import { Providers } from "./providers";
 import NavbarLanding from "./components/landing/NavbarLanding";
 
@@ -14,7 +15,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       {/* Use Head component to manage metadata */}
       <Head>
         <title>{metadata.title}</title>
@@ -23,7 +24,7 @@ export default function RootLayout({ children }) {
       </Head>
       {/* Navbar should be inside the body */}
       <body className={inter.className}>
-        <NavbarLanding />
+        <Header />
         <Providers>{children}</Providers>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
       </body>

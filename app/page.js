@@ -1,9 +1,12 @@
 import Image from "next/image";
-import NavbarLanding from "./components/landing/NavbarLanding";
+import Header from "./components/Header/page";
+import Hero from "./components/Hero/page";
+import Footer from "./components/Footer/page";
 
 export default function Home() {
   return (
-    <div>
-    </div>
+    <>
+      <Hero />
+    </>
   );
 }
